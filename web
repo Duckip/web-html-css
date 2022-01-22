@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Web</title>
+    <link rel="shortcut icon" href="ulu.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>COBAWEB</div> 
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#social">Social</a></li>
+                    <li><a href=""class="biru">Sign In</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- Home-->
+        <section id="home">
+            <div class="kolom">
+                <p class="desc"> Hello, </p>
+                <h2> I'am Chelsy </h2>
+                <p> This web is dedicated for myself </p>
+            </div>
+            <img src="https://image.freepik.com/free-vector/website-designer-concept-illustration_114360-4396.jpg"/>
+        </section>
+
+        <!--about-->
+        <section id="about">
+            <img src="about.jpg" height="400" width="400"/>
+            <div class="kolom">
+                <h2 class="desc"> About</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, nam! </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p><a href="" class="biru">Details</a></p>
+            </div> 
+        </section>
+
+        <!--portfolio-->
+        <section id="portfolio">
+            <div class="wrapper">
+                <div class="portfolio">
+                    <h2><center>Portfolio</center></h2>
+                    <div class="footer-section">
+                        <p><center><a href= ><img src="ulu.jpg"height="200" width="200"/></a></center></p>
+                    </div>
+                    <div class="footer-section">
+                        <p><center><a href=><img src="pic.jpg"height="200" width="200"/></a></center></p>
+                    </div>
+                    <div class="footer-section">
+                        <p><center><a href=><img src="tesport.jpg"height="200" width="200"/></a></center></p>
+                    </div>
+                </div>
+                <p><center><a href=""class="biru">Discover More</a></center></p>
+            </div>
+        </section>
+
+        <!--social media-->
+        <div id="social">
+            <div class="wrapper">
+                <div class="footer">
+                    <h3><center>My Social Media</center></h3>
+                    <div class="footer-section">
+                        <p><center><a href= https://www.instagram.com/chelsyelisabet><img src="ig.png"height="50" width="50"/></a></center></p>
+                    </div>
+                    <div class="footer-section">
+                        <p><center><a href=mailto:chelsyeliabetgultom@gmail.com><img src="email.png"height="40" width="50"/></a></center></p>
+                    </div>
+                    <div class="footer-section">
+                        <p><center><a href= https://www.youtube.com/channel/UCndPQUeIbsFsFdwODXnOVrQ><img src="yt.png"height="80" width="90"/></a></center></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sign in-->
+        <section id="biru"></section>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022 COBAWEB. All Right Reserved.
+        </div>
+    </div>
+</body>
+</html>
